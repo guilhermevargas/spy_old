@@ -1,0 +1,40 @@
+{
+  "name": "spy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node server.js",
+    "test": "mocha --timeout 10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "consign": "^0.1.6",
+    "express": "^4.15.3",
+    "express-joi": "^0.3.1",
+    "express-joi-middleware": "^1.0.0",
+    "express-joi-validation": "^0.1.0",
+    "hapi": "^17.1.1",
+    "joi": "^10.6.0",
+    "jsonwebtoken": "^7.4.1",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^4.11.1",
+    "morgan": "^1.8.2",
+    "nconf": "^0.8.4",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0",
+    "mocha": "^2.5.3",
+    "bcrypt": "^1.0.2",
+    "eslint": "^4.4.1"
+  }
+}

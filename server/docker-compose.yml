@@ -1,0 +1,14 @@
+server:
+  image: node:8.1.3
+  ports:
+  - "9001:8080"
+  volumes: 
+  - .:/usr/app/
+  - /usr/app/node_modules
+  command: node server.js
+
+database:
+  image: mongo:3.0.15
+  ports:
+    - "27017:27017"
+  

@@ -1,0 +1,19 @@
+{
+  "app": {
+    "port": 9001
+	},
+  "jwt": {
+    "secret": "secret"
+  },
+	"database": {
+		"url": "mongodb://localhost:27017/spydb"
+	}, 
+	"social": { 
+		"fb": {
+			"app_token": "1556248324679888|bq6l2fqa5jTnfv-81LZkZ3litec",
+			"host": "graph.facebook.com",
+			"debug": "/v2.10/debug_token",
+			"profile": "/v2.10/"
+		}
+	}
+}
